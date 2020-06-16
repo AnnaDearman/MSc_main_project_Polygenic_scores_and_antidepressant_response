@@ -1,4 +1,4 @@
-# MSc_main_project_Polygenic_scores_and_antidepressant_response
+### MSc_main_project_Polygenic_scores_and_antidepressant_response
 A respository of files used in my six-month Master's project: "Polygenic scores for psychological traits and disorders and response and adverse drug reactions to antidepressants"
 
 This was my six-month Master's project in 2020; my first big project in bioinformatics. At the time of writing, this is still a work-in-progress!
