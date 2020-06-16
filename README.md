@@ -41,6 +41,10 @@ These scripts unpack your imputed data, run diagnostic plots with IC, run some P
 
 *STEP_03_Power_calculations
 
+I read up on many different psychiatric traits and their GWASs to decide which to generate polygenic scores for, to use as explanatory variables in my analysis of antidepressant response. I also performed a power calculation for each of them, using the avengeme package, polygenescore() function.
+In order to understand the effects of different values for the different inputs into the power calculation for my polygenic scores, I made a few scripts that produced plots: Binary_training_trait_power_calc_with_plots.R, Continuous_training_trait_power_calc_with_plots.R and Power_calc_as_function_of_n_ind_training_trait_and_prevalence_with_plots.R.
+When all the comments and vectors of numbers got a bit too much to look at, I used Quick_power_calc.R to quickly and easily produce a single power calculation for a set of inputs.
+
 *STEP_04_Polygenic_scores
 
 *STEP_05_Data_analysis
