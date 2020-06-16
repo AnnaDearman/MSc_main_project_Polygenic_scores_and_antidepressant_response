@@ -2,7 +2,7 @@
 A respository of files used in my six-month Master's project: "Polygenic scores for psychological traits and disorders and response and adverse drug reactions to antidepressants"
 
 This was my six-month Master's project in 2020; my first big project in bioinformatics. At the time of writing, this is still a work-in-progress.
-Overall, I am proud of how autonomously I was able to use and troubleshoot UNIX command-line tools, and bash and R scripts, given my limited experience and previous biology-only background!
+Overall, I am proud of how autonomously I was able to use and troubleshoot UNIX command-line tools, and bash and R scripts, given my limited experience and previous biology-only background! 
 The command-line tools I used were all written by other people. Full credit goes to their respective authors.
 
 A few notes to anyone who wants to follow along for their own project:
@@ -33,6 +33,11 @@ checkVCF.py can be copied from from https://github.com/zhanxw/checkVCF - I have 
 I have not yet produced a proper allele frequency plot. The plot produced in pre_imp_03.sh is not sufficient.
 
 *STEP_02_GWAS_QC_post-imputation
+
+The order in which these scripts should be run is:
+
+post_imp_01.sh, post_imp_02.sh, post_imp_03.sh, post_imp_04.sh
+These scripts unpack your imputed data, run diagnostic plots with IC, run some PLINK commands, and replace the SNP IDs using Annovar. I adapted one of my supervisor's previous scripts to run the PLINK commands, but I figured out how to use the other tools myself.
 
 *STEP_03_Power_calculations
 
