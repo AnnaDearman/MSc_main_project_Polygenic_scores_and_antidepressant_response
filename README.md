@@ -42,4 +42,4 @@ I have not yet produced a proper allele frequency plot. The plot produced in pre
 
 Areas for growth:
 - The commands I ran are separated into separate scripts somewhat arbitrarily.
-- Ideally another user would be able to submit a few key pieces of information as arguments and run the scripts in a more hands-off way.
+- Ideally these scripts could be made more user-friendly by coding them so that a user could submit a few key pieces of information as arguments and run the scripts in a more hands-off way. However, having to go through the code with a fine tooth comb would give the user greater expertise!
