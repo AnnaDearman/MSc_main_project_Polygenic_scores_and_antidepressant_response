@@ -47,7 +47,12 @@ When all the comments and vectors of numbers got a bit too much to look at, I us
 
 *STEP_04_Polygenic_scores
 
+One simple script to run PRSice to generate polygenic scores for four psychiatric disorders and traits, for my participants.
+N.B. I did not have to convert the human genome annotation to a different version / "build" in order to run PRSice on this occasion. If so, you need to make non-binary versions of the genotype data in PLINK, convert it using LiftOver, then make binary versions again. 
+
 *STEP_05_Data_analysis
+
+I am still working on this. It will be a very long R script eventually!
 
 Areas for growth:
 - The commands I ran are separated into separate scripts somewhat arbitrarily.
