@@ -11,7 +11,7 @@ printf "vcfparse=[location]vcfparse.pl" > Config.conf
 
 source ./Config.conf
 
-password="[password given my Michigan imputation server]"
+password="[password given by Michigan imputation server]"
 
 cd [file location]
 
