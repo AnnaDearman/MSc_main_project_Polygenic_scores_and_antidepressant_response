@@ -16,11 +16,11 @@ PRSice_linux \
  --pvalue p \
  --stat b \
  --snp MarkerName \
- --base ~/gendep/prs/prs_data/height/GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt \
+ --base ~[file path]/GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt \
  --fastscore \
  --all-score \
  --no-regress \
  --print-snp \
  --bar-levels 0.0001,0.01,0.05,0.1,0.5,1 \
- --target ~/gendep/post_imp_qc/post_imp_qc_output/gendep_1kg_imp_QCd_popstratout_removed \
- --out ~/gendep/prs/prs_data/height/gendep_height_PGS
+ --target ~[file path and file name] \
+ --out ~[file path and file name]
