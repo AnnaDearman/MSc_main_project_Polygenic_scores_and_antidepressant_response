@@ -18,7 +18,7 @@ pdf( "My_cohort_vs_1KG_pop_strat_PCA.pdf" )
 
 ggplot( PCAEVEC, aes( x = PC1, y = PC2, colour = Population ) )+
     geom_point( shape = 4 )+
-    scale_colour_manual( name = "", labels = c( "African-American", "Utah NW European", "Han Chinese", "S Han Chinese", "Colombian", "Finnish", "British Eng Scot", "My_cohort", "Spanish Iberian", "Japanese", "Luhya Kenyan", "Mexican-American", "Puerto Rican", "Tuscan Italian", "Yoruba Nigerian" ), values = c( "ASW" = "goldenrod1", "CEU" = "greenyellow", "CHB" = "mediumorchid2", "CHS" = "mediumpurple4", "CLM" = "royalblue3", "FIN" = "darkcyan", "GBR" = "black", "Gendep" = "chartreuse4", "IBS" = "springgreen3", "JPT" = "deeppink", "LWK" = "salmon1", "MXL" = "blue1", "PUR" = "deepskyblue2", "TSI" = "darkgreen", "YRI" = "tomato") )+
+    scale_colour_manual( name = "", labels = c( "African-American", "Utah NW European", "Han Chinese", "S Han Chinese", "Colombian", "Finnish", "British Eng Scot", "My_cohort", "Spanish Iberian", "Japanese", "Luhya Kenyan", "Mexican-American", "Puerto Rican", "Tuscan Italian", "Yoruba Nigerian" ), values = c( "ASW" = "goldenrod1", "CEU" = "greenyellow", "CHB" = "mediumorchid2", "CHS" = "mediumpurple4", "CLM" = "royalblue3", "FIN" = "darkcyan", "GBR" = "black", "My_cohort" = "chartreuse4", "IBS" = "springgreen3", "JPT" = "deeppink", "LWK" = "salmon1", "MXL" = "blue1", "PUR" = "deepskyblue2", "TSI" = "darkgreen", "YRI" = "tomato") )+
     labs( x = "PC1", y = "PC2" )+
     theme( panel.grid.major = element_blank(), panel.grid.minor = element_blank() )+
     theme( panel.background = element_rect( fill = "white" ) )
