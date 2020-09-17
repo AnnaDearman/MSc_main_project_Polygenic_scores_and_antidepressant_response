@@ -1,20 +1,12 @@
 ### MSc_main_project_Polygenic_scores_and_antidepressant_response
 A respository of files used in my six-month Master's project: "Polygenic scores for psychological traits and disorders and response and adverse drug reactions to antidepressants"
 
-This was my six-month Master's project in 2020; my first big project in bioinformatics. At the time of writing, this is still a work-in-progress.
-Overall, I am proud of how autonomously I was able to use and troubleshoot UNIX command-line tools, and bash and R scripts, given my limited experience and previous biology-only background! 
 The command-line tools I used were all written by other people. Full credit goes to their respective authors.
 
-A few notes to anyone who wants to follow along for their own project:
+Please note:
+- I have redacted some file paths and file names
+- For more information regarding the tools I've used, go to https://www.cog-genomics.org/plink/2.0, https://github.com/JoniColeman/gwas_scripts, https://sites.google.com/site/mikeweale/software/eigensoftplus, https://www.well.ox.ac.uk/~wrayner/tools/, https://github.com/zhanxw/checkVCF, https://www.well.ox.ac.uk/~wrayner/tools/Post-Imputation.html, https://doc-openbio.readthedocs.io/projects/annovar/en/latest/, https://www.prsice.info/
 
-- This is not yet as user-friendly and generic as it could be. It is currently posted to demonstrate the kind of work I have done, not to help other researchers who are new to this type of analysis, though I would like it to be so in future, and would be willing to answer any questions people may have about these scripts! e-mail annalivings@yahoo.co.uk.
-- There are some commands that compress and delete files. I had to compress my files to save space - others may like to omit these steps.
-- I have redacted some file paths - look through the scripts and fill in your own file paths.
-- I advise anyone following this to thoroughly research the tools I've used. Go to https://www.cog-genomics.org/plink/2.0, https://github.com/JoniColeman/gwas_scripts, https://sites.google.com/site/mikeweale/software/eigensoftplus, https://www.well.ox.ac.uk/~wrayner/tools/, https://github.com/zhanxw/checkVCF, https://www.well.ox.ac.uk/~wrayner/tools/Post-Imputation.html, https://doc-openbio.readthedocs.io/projects/annovar/en/latest/, https://www.prsice.info/, etc.
-- There may be some files and programs that I use that are not included in my repository - if so, apologies: just try searching for the script name online!
-- My GWAS data did not include phenotypes or controls - your data, and therefore scripting needs, may be very different! Try https://github.com/JoniColeman/gwas_scripts
-- My GWAS data had already been sex-check-cleaned by somebody else.
-- Check whether the "module load" and "module unload" statements are applicable to you.
 
 *STEP_01_GWAS_QC_pre-imputation
 
@@ -52,8 +44,4 @@ N.B. I did not have to convert the human genome annotation to a different versio
 
 *STEP_05_Data_analysis
 
-I am still working on this. It will be a very long R script eventually!
-
-Areas for growth:
-- The commands I ran are separated into separate scripts somewhat arbitrarily.
-- Ideally these scripts could be made more user-friendly by coding them so that a user could submit a few key pieces of information as arguments and run the scripts in a more hands-off way. However, having to go through the code with a fine tooth comb would give the user greater expertise!
+This contains all the code necessary for the analyses for my project
